@@ -1,7 +1,7 @@
 #set page(
   paper: "a4",
   header: align(right)[
-*Mátematicas altamente masticadas*
+*Matemáticas altamente masticadas*
   ]
 )
 
@@ -15,7 +15,7 @@
   *Matemáticas altamente masticadas*
 ])
 #align(center, text(17pt)[
-  Una introduccion a las matemáticas universitarias
+  Una introducción a las matemáticas universitarias
 ])
 #box(
   height: 200pt

@@ -2,12 +2,20 @@
 #import "./lib/imports.typ": *
 #set text(font: "Georgia")
 #set page(number-align: right, numbering:"1", paper:"a4")
-#set heading(numbering: ("-1-"),bookmarked: true)
+#set heading(numbering: ("1."),bookmarked: true)
 #show heading: it => [
   #set align(center)
   #set text(font: "Georgia" , size: 20pt)
   #emph(it.body) 
 ]
+
+#show heading.where(level: 2): it =>[
+  #set align(left)
+  #set text(size: 14pt)
+  #emph(it.body)
+]
+#set math.equation(numbering: "(1)")
+
 
 
 //portada
@@ -21,10 +29,10 @@
 //Contenido
 #set text(lang: "es")
 #outline()
-Aquí va el indice
+
 #pagebreak()
 
-= ¿Como leer el libro?
+= _¿Como leer este libro?_<How-to>
 #include "./partes/otros/comoleer.typ"
 #pagebreak()
 
