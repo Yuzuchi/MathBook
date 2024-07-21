@@ -27,4 +27,4 @@ Gutierrez Vazquez Leonardo
   height: 300pt
 )
 
-#lorem(20)
+Licenciado bajo GNU General Public License v3.0 20 de Julio del 2024
